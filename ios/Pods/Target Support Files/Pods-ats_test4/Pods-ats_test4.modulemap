@@ -1,0 +1,6 @@
+framework module Pods_ats_test4 {
+  umbrella header "Pods-ats_test4-umbrella.h"
+
+  export *
+  module * { export * }
+}
