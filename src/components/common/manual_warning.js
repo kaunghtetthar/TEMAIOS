@@ -41,7 +41,7 @@ export default class manual_warning extends Component {
       if(response.status >= 200 && response.status < 300) {
         this.setState({error: ""});
         let accessToken = res;
-        this.storeToken(accessToken);
+        // this.storeToken(accessToken);
         Actions.HomePage();
         console.log("res token: " + accessToken);
       } else {
@@ -49,7 +49,7 @@ export default class manual_warning extends Component {
         throw errors;
       }
     } catch(error) {
-      this.removeToken();
+      // this.removeToken();
       this.setState({error: error});
       console.log( "error" + error );
       }
@@ -80,14 +80,12 @@ export default class manual_warning extends Component {
                           <Input
                               placeholder="...."
                               label="Warning"
-                              value={this.state.ticket_number}
-                              onChangeText={username => this.setState({ username })}
                           />
                       </CardSection>
 
 
                       <CardSection>
-                      <Button onPress={() => Actions.HomePage() && this.warning.bind(this) }>
+                      <Button onPress={() => this.warning() }>
                       Done
                       </Button>
                       </CardSection>

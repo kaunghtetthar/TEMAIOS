@@ -7,13 +7,10 @@ target 'ats_test4' do
 
   # Pods for ats_test4
     pod 'MobileVLCKit'
-
+    pod 'Firebase/Core'
     inherit! :search_paths
 
-  pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
 
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  pod 'react-native-video', :path => '../node_modules/react-native-video'
 
 end

@@ -1,4 +1,14 @@
 {
   "name": "ats_test4",
-  "displayName": "ats_test4"
+  "displayName": "ats_test4",
+  "expo": {
+    "name": "ats_test4",
+    "slug": "project",
+    "sdkVersion": "25.0.0",
+    "version": "1.0.0",
+    "privacy": "public",
+    "android": {
+      "package": "com.example.project"
+    }
+ }
 }

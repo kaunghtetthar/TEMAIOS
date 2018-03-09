@@ -76,35 +76,23 @@
 
 }
   
-  
 
 - (IBAction)playandPause:(id)sender
   {
     if (_mediaplayer.isPlaying)
       [_mediaplayer pause];
     
-    
   [_mediaplayer play];
-    
-
-    
-    
-
   }
-
-
 
 
   - (void)viewDidLayoutSubviews
 {
   [super viewDidLayoutSubviews];
   rootView.frame = self.view.bounds;
-
-
 }
 
 
-  
   - (void)didReceiveMemoryWarning
   {
     [super didReceiveMemoryWarning];

@@ -3,7 +3,7 @@
 
 import React, {Component} from 'react';
 import { Text, View, Image,
-  Linking, Dimensions,
+  Linking, Dimensions, StyleSheet,
   log, AsyncStorage, Alert,
   TouchableHighlight, Modal, ScrollView } from 'react-native';
 import {Card, Button, CardSection, Spinner} from './common';
@@ -69,14 +69,14 @@ const VDetail = ( {album} ) => {
 
     const state = { selectedTab: 'api' };
 
-    const {
-        thumbnailStyle,
-        headerContentStyle,
-        thumbnailContainerStyle,
-        headerTextStyle,
-        imageStyle,
-        numberPlateStyle,
-    } = styles;
+    // const {
+    //     thumbnailStyle,
+    //     headerContentStyle,
+    //     thumbnailContainerStyle,
+    //     headerTextStyle,
+    //     imageStyle,
+    //     numberPlateStyle,
+    // } = styles;
 
 
     const Logo = () => {
@@ -122,11 +122,11 @@ const VDetail = ( {album} ) => {
 
            <ScrollView style={styles.image} horizontal pagingEnabled={true}>
 
-           <View style={thumbnailContainerStyle} horizontal>
+           <View style={styles.thumbnailContainerStyle} horizontal>
 
            <CardSection>
                <Image
-                   style={thumbnailStyle}
+                   style={styles.thumbnailStyle}
                    source={Logo()}
                />
 
@@ -189,11 +189,6 @@ const VDetail = ( {album} ) => {
 
            </CardSection>
 
-
-
-
-
-
        </Card>
 
 
@@ -203,7 +198,7 @@ const VDetail = ( {album} ) => {
 
 
 
-const styles = {
+const styles = StyleSheet.create({
   container: {
       flex: 1,
   },
@@ -258,7 +253,7 @@ const styles = {
         width: 400
     },
 
-};
+});
 
 
 export default VDetail;

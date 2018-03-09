@@ -31,6 +31,8 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+@import Firebase;
+
 @implementation VDLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -40,6 +42,8 @@
 //    self.viewController = [[VDLView alloc] initWithNibName:@"VDLView" bundle:nil];
 //    self.window.rootViewController = self.viewController;
 //    [self.window makeKeyAndVisible];
+  
+    [FIRApp configure];
   
   NSURL *jsCodeLocation;
   
@@ -51,6 +55,8 @@
                                                       moduleName:@"ats_test4"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
+  
+  
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
   
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -101,5 +107,7 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
 
 @end

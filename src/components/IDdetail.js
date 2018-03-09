@@ -141,7 +141,9 @@ const IDdetail = ( {album} ) => {
 
 
             <Card>
-            <Text> before violation </Text>
+            <View style={{backgroundColor: '#53a6e1', flex: 0.3}}>
+            <Text style={{textAlign: 'center'}}> before violation </Text>
+            </View>
             <Swiper style={styles.wrapper} horizontal showsButtons >
 
                 {
@@ -173,7 +175,9 @@ const IDdetail = ( {album} ) => {
                 </CardSection>
             </ScrollView>
 
-            <Text> after violation </Text>
+            <View style={{backgroundColor: '#53a6e1', flex: 0.3}}>
+            <Text style={{textAlign: 'center'}}> after violation </Text>
+            </View>
             <Swiper style={styles.wrapper} showsButtons>
 
                 {
@@ -188,7 +192,9 @@ const IDdetail = ( {album} ) => {
 
 
             <Card>
-            <Text> license </Text>
+            <View style={{backgroundColor: '#53a6e1', flex: 0.3}}>
+            <Text style={{textAlign: 'center'}}> license </Text>
+            </View>
             <Swiper style={styles.wrapper} showsButtons>
 
                 {
@@ -202,10 +208,13 @@ const IDdetail = ( {album} ) => {
             </Swiper>
             </Card>
 
-            <Text> Violation Video </Text>
 
 
             <Card>
+
+            <View style={{backgroundColor: '#53a6e1', flex: 0.3}}>
+            <Text style={{textAlign: 'center'}}> Violation Video </Text>
+            </View>
             <ImageBackground
                 style={styles.wrapper}
                 source={{uri: mainurl + after_url[0]}}
