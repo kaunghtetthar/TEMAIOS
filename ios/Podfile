@@ -6,7 +6,7 @@ target 'ats_test4' do
    use_frameworks!
 
   # Pods for ats_test4
-    pod 'MobileVLCKit'
+  #  pod 'MobileVLCKit'
     pod 'Firebase/Core'
     inherit! :search_paths
 

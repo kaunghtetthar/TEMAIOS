@@ -37,13 +37,13 @@
 		2A3D1D0D202D82190066E146 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3D1CFF202D82190066E146 /* CoreText.framework */; };
 		2A3D1D0E202D82190066E146 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3D1D00202D82190066E146 /* CoreGraphics.framework */; };
 		2A3D1D14202DAB780066E146 /* VDLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D1D11202DAB760066E146 /* VDLAppDelegate.m */; };
+		2A6205632064C44E00A35836 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A6205622064C44E00A35836 /* GoogleService-Info.plist */; };
 		2A7444A8202C49B600505D7B /* aviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7444A7202C49B600505D7B /* aviViewController.swift */; };
 		2A744510202C4BD300505D7B /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7444EA202C4BD300505D7B /* MobileVLCKit.framework */; };
 		2A744512202C4BE600505D7B /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A744511202C4BE600505D7B /* libstdc++.6.tbd */; };
 		2A744524202C4ECE00505D7B /* VDLView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A744520202C4ECE00505D7B /* VDLView-Info.plist */; };
 		2A74452A202C50C000505D7B /* VDLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A744526202C50C000505D7B /* VDLView.m */; };
 		2A74452B202C50C000505D7B /* VDLViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A744528202C50C000505D7B /* VDLViewManager.m */; };
-		2AB7DDC220511A3A0030B097 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AB7DD9B20511A3A0030B097 /* GoogleService-Info.plist */; };
 		2AED14F020314CB500F8CB85 /* VDLView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AED14CA20314CB500F8CB85 /* VDLView.xib */; };
 		2E0B3D9974AF48DCAF625629 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E92E7A5D404A6BBFCEE708 /* MaterialIcons.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
@@ -370,6 +370,8 @@
 		2A3D1D00202D82190066E146 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2A3D1D11202DAB760066E146 /* VDLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDLAppDelegate.m; sourceTree = "<group>"; };
 		2A3D1D13202DAB770066E146 /* VDLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDLAppDelegate.h; sourceTree = "<group>"; };
+		2A6205612064B70100A35836 /* ats_test4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ats_test4.entitlements; path = ats_test4/ats_test4.entitlements; sourceTree = "<group>"; };
+		2A6205622064C44E00A35836 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ats_test4/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A7444A6202C49B500505D7B /* ats_test4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ats_test4-Bridging-Header.h"; sourceTree = "<group>"; };
 		2A7444A7202C49B600505D7B /* aviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aviViewController.swift; sourceTree = "<group>"; };
 		2A7444EA202C4BD300505D7B /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = "Pods/MobileVLCKit/MobileVLCKit-binary/MobileVLCKit.framework"; sourceTree = "<group>"; };
@@ -380,7 +382,6 @@
 		2A744527202C50C000505D7B /* VDLViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDLViewManager.h; sourceTree = "<group>"; };
 		2A744528202C50C000505D7B /* VDLViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDLViewManager.m; sourceTree = "<group>"; };
 		2A744529202C50C000505D7B /* VDLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDLView.h; sourceTree = "<group>"; };
-		2AB7DD9B20511A3A0030B097 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ats_test4/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AED14CA20314CB500F8CB85 /* VDLView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDLView.xib; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E92E7A5D404A6BBFCEE708 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
@@ -528,7 +529,8 @@
 		13B07FAE1A68108700A75B9A /* ats_test4 */ = {
 			isa = PBXGroup;
 			children = (
-				2AB7DD9B20511A3A0030B097 /* GoogleService-Info.plist */,
+				2A6205622064C44E00A35836 /* GoogleService-Info.plist */,
+				2A6205612064B70100A35836 /* ats_test4.entitlements */,
 				2AED14CA20314CB500F8CB85 /* VDLView.xib */,
 				2A3D1D13202DAB770066E146 /* VDLAppDelegate.h */,
 				2A3D1D11202DAB760066E146 /* VDLAppDelegate.m */,
@@ -778,9 +780,17 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = LBWM8SZSB7;
+						DevelopmentTeam = P47NS6T879;
 						LastSwiftMigration = 920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -1150,7 +1160,7 @@
 				1AA7300B9C96418EA76C2005 /* Foundation.ttf in Resources */,
 				8D15DAB3068E4FC1920F1C32 /* Ionicons.ttf in Resources */,
 				B576453AE9B74B8FBF544105 /* MaterialCommunityIcons.ttf in Resources */,
-				2AB7DDC220511A3A0030B097 /* GoogleService-Info.plist in Resources */,
+				2A6205632064C44E00A35836 /* GoogleService-Info.plist in Resources */,
 				2E0B3D9974AF48DCAF625629 /* MaterialIcons.ttf in Resources */,
 				0F8F55A3E38249D2A31BE3D0 /* Octicons.ttf in Resources */,
 				F60517C36E8040B09D121C77 /* SimpleLineIcons.ttf in Resources */,
@@ -1340,13 +1350,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE08E9B1204ACD69473DC703 /* Pods-ats_test4.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ats_test4/ats_test4.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = LBWM8SZSB7;
+				DEVELOPMENT_TEAM = P47NS6T879;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1365,7 +1378,9 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.react.ats-test4";
 				PRODUCT_NAME = ats_test4;
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ats_test4-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1379,12 +1394,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67065A9A229E4D9006F8E10A /* Pods-ats_test4.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ats_test4/ats_test4.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LBWM8SZSB7;
+				DEVELOPMENT_TEAM = P47NS6T879;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1398,12 +1416,15 @@
 				INFOPLIST_FILE = ats_test4/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.react.ats-test4";
 				PRODUCT_NAME = ats_test4;
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ats_test4-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

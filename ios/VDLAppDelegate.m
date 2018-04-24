@@ -43,7 +43,9 @@
 //    self.window.rootViewController = self.viewController;
 //    [self.window makeKeyAndVisible];
   
-    [FIRApp configure];
+  [FIRApp configure];
+  
+  
   
   NSURL *jsCodeLocation;
   

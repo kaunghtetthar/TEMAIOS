@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>226899547374-1fq0a8posq8dk63gs2dtmv3ol296fcg2.apps.googleusercontent.com</string>
+	<string>226899547374-72t915be4e4f2l7m3j5ptmdlq2e0glph.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.226899547374-1fq0a8posq8dk63gs2dtmv3ol296fcg2</string>
+	<string>com.googleusercontent.apps.226899547374-72t915be4e4f2l7m3j5ptmdlq2e0glph</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAEtKuS1GGRNVPvFMxdy2qIG78u--x2j9c</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,23 +17,23 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.ats-test4</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>PROJECT_ID</key>
 	<string>authentication-81502</string>
 	<key>STORAGE_BUCKET</key>
 	<string>authentication-81502.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:226899547374:ios:1d97c398e7ed1373</string>
+	<string>1:226899547374:ios:406208d0d1d8411b</string>
 	<key>DATABASE_URL</key>
 	<string>https://authentication-81502.firebaseio.com</string>
 </dict>
