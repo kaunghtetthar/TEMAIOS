@@ -72,7 +72,6 @@ export default class manual_warning extends Component {
   render() {
     return (
         <View style={styles.container}>
-                <Text>{this.props.id}</Text>
 
                 <Card>
 
@@ -105,7 +104,6 @@ export default class manual_warning extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
   },
   modalContainer: {
     flex: 1,

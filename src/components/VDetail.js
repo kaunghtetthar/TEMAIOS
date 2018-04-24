@@ -6,18 +6,35 @@ import { Text, View, Image,
   Linking, Dimensions, StyleSheet,
   log, AsyncStorage, Alert,
   TouchableHighlight, Modal, ScrollView } from 'react-native';
-import {Card, Button, CardSection, Spinner} from './common';
+import {Card, Button, CardSection, Spinner, manual_ticket} from './common';
 import TabNavigator from 'react-native-tab-navigator';
 import {Actions} from 'react-native-router-flux';
 import {Router, Scene} from 'react-native-router-flux';
 import AlbumList from './AlbumList';
 import PTRView from 'react-native-pull-to-refresh';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import PopupDialog, { DialogTitle } from 'react-native-popup-dialog';
+import PopupDialog, {
+  DialogTitle,
+  DialogButton,
+  SlideAnimation,
+  ScaleAnimation,
+  FadeAnimation,
+} from 'react-native-popup-dialog';
+import SignOut from './SignOut';
+
+const deviceW = Dimensions.get('window').width;
+
+const basePx = 375;
+
+function px2dp(px) {
+    return ( deviceW - px);
+}
 
 
 
 
+
+const scaleAnimation = new ScaleAnimation();
 
 const VDetail = ( {album} ) => {
 
@@ -49,9 +66,14 @@ const VDetail = ( {album} ) => {
         color,
         vehicle_type, plate_province } = album;
 
+        // const delete = () => {
+        //     return delete(id);
+        //   };
+
     const API_DATE = timestamp.slice(' ', 10);
     const API_TIME1 = timestamp.slice(11);
     const API_TIME = API_TIME1.slice('',11);
+
 
 
     const lego = violation_type.includes('RL');
@@ -64,7 +86,6 @@ const VDetail = ( {album} ) => {
     const [ group_en ] = evidence;
 
     const {url} = evidence[1];
-
 
 
     const state = { selectedTab: 'api' };
@@ -88,23 +109,19 @@ const VDetail = ( {album} ) => {
         }
     };
 
-    const popup = () => {
-        return (
-          <View style={styles.container}>
-  <PopupDialog
-    dialogTitle={<DialogTitle title="Dialog Title" />}
-  >
-    <View>
-      <modal />
-    </View>
-  </PopupDialog>
-</View>
-        );
-    }
+
+
+    const remove = () => {
+      if (id !== -1) {
+        const index = {album};
+        VDetail.splice(id, 1);
+}
+      }
+    // }
 
     const Slide = () => {
         return (
-            <View style={styles.slide} >
+            <View>
                 <Image style={styles.imageStyle} source={{uri: mainurl + url}} />
             </View>
         );
@@ -115,12 +132,14 @@ const VDetail = ( {album} ) => {
     return (
 
 
-
+      <View style={StyleSheet.container}>
       <Card onPress={() => Actions.Violation({ Violation_id: id } )}>
-           <CardSection>
+           <CardSection >
 
 
            <ScrollView style={styles.image} horizontal pagingEnabled={true}>
+
+           <View style={{ width: px2dp(22), flexDirection: 'row' }} horizontal>
 
            <View style={styles.thumbnailContainerStyle} horizontal>
 
@@ -132,12 +151,10 @@ const VDetail = ( {album} ) => {
 
                <Text>{API_DATE}{'\n'}{API_TIME}</Text>
 
-
-
                </CardSection>
 
                <Text style={{width : 130, height : 50}}>
-               {brand} / {color} {'\n'} {vehicle_type}
+               {brand} / {color} {'\n'}{vehicle_type}
                </Text>
                <Button onPress={() =>
                    Actions.Violation({ Violation_id: id } )
@@ -148,17 +165,21 @@ const VDetail = ( {album} ) => {
                </Button>
            </View>
 
-               <CardSection horizontal style={styles.image}>
+           <View style={styles.image} >
 
-                   <Card onPress={() => Actions.Violation({ Violation_id: id } )}>
-                       <Slide/>
-                   </Card>
+               <Card>
+                   <Slide/>
+               </Card>
+
+               </View>
+
+               </View>
 
                    <View horizontal>
 
                        <CardSection>
 
-                           <Button onPress={() => Actions.manual_ticket({ id : id})}>
+                           <Button onPress={() => Actions.manual_ticket({id : id})}>
                                {'      '}
                                <Icon name="ticket" size={20} color="#666"/>
                                {'      '}
@@ -175,7 +196,7 @@ const VDetail = ( {album} ) => {
                        </CardSection>
 
                        <CardSection>
-                           <Button onPress={() => Actions.DeleteViolation({ Violation_id: id } )}>
+                           <Button onPress={() => Actions.Tab({delete_id : id})}>
                                {'      '}
                                <Icon name="trash-o" size={20} color="#666"/>
                                {'      '}
@@ -183,7 +204,6 @@ const VDetail = ( {album} ) => {
                        </CardSection>
                    </View>
 
-               </CardSection>
            </ScrollView>
 
 
@@ -192,6 +212,8 @@ const VDetail = ( {album} ) => {
        </Card>
 
 
+
+       </View>
     );
 };
 
@@ -203,9 +225,14 @@ const styles = StyleSheet.create({
       flex: 1,
   },
     headerContentStyle: {
-        flexDirection: 'column',
-        justifyContent: 'space-around'
+    flexDirection: 'column',
+    justifyContent: 'space-around'
     },
+    dialogContentView: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
     numberPlateStyle:{
         justifyContent: 'center',
         alignItems: 'center',
@@ -215,13 +242,13 @@ const styles = StyleSheet.create({
     },
     thumbnailStyle: {
         height: 40,
-        width: 40
+        width: 30
     },
     thumbnailContainerStyle: {
         justifyContent: 'center',
         alignItems: 'center',
-        marginLeft: 10,
-        marginRight: 10
+        marginLeft: 5,
+        marginRight: 5
     },
     imageStyle: {
         height: 130,
@@ -245,12 +272,9 @@ const styles = StyleSheet.create({
         flex: 1,
         // justifyContent: 'center',
         backgroundColor: 'transparent',
-        width: 230
     },
     image: {
-
         flex: 1,
-        width: 400
     },
 
 });

@@ -9,6 +9,14 @@ import TabNavigator from 'react-native-tab-navigator';
 import {Actions} from 'react-native-router-flux';
 import {Router, Scene} from 'react-native-router-flux';
 import AlbumList from './AlbumList';
+
+import PopupDialog, {
+  DialogTitle,
+  DialogButton,
+  SlideAnimation,
+  ScaleAnimation,
+  FadeAnimation,
+} from 'react-native-popup-dialog';
 // import  Video  from 'react-native-video';
 //
 // import Tab from './Tab';
@@ -17,6 +25,7 @@ import AlbumList from './AlbumList';
 // import  {play}  from 'react-native-vlc-player';
 
 
+const scaleAnimation = new ScaleAnimation();
 
 const {VDLViewManager} = NativeModules
 
@@ -65,7 +74,7 @@ const IDdetail = ( {album} ) => {
 
 
     const { id, timestamp, date,
-        plate_number,evidence, brand, color,
+        plate_number, evidence, brand, color,
         vehicle_type, violation_type, plate_province} = album;
 
     const { RNVideoPlayer } = NativeModules;
@@ -142,7 +151,7 @@ const IDdetail = ( {album} ) => {
 
             <Card>
             <View style={{backgroundColor: '#53a6e1', flex: 0.3}}>
-            <Text style={{textAlign: 'center'}}> before violation </Text>
+            <Text style={{textAlign: 'center'}}> Before Violation </Text>
             </View>
             <Swiper style={styles.wrapper} horizontal showsButtons >
 
@@ -157,26 +166,10 @@ const IDdetail = ( {album} ) => {
             </Swiper>
             </Card>
 
-            <ScrollView style={styles.image} horizontal pagingEnabled={true}>
-                <CardSection horizontal style={styles.image}>
 
-
-                    {
-                        before_url.map((item, i) => <Slide1
-                            uri={item}
-                            i={i}
-                            key={i} />)
-                    }
-
-
-
-
-
-                </CardSection>
-            </ScrollView>
-
+            <Card>
             <View style={{backgroundColor: '#53a6e1', flex: 0.3}}>
-            <Text style={{textAlign: 'center'}}> after violation </Text>
+            <Text style={{textAlign: 'center'}}> After Violation </Text>
             </View>
             <Swiper style={styles.wrapper} showsButtons>
 
@@ -189,11 +182,12 @@ const IDdetail = ( {album} ) => {
 
 
             </Swiper>
+            </Card>
 
 
             <Card>
             <View style={{backgroundColor: '#53a6e1', flex: 0.3}}>
-            <Text style={{textAlign: 'center'}}> license </Text>
+            <Text style={{textAlign: 'center'}}> License </Text>
             </View>
             <Swiper style={styles.wrapper} showsButtons>
 
@@ -232,7 +226,26 @@ const IDdetail = ( {album} ) => {
 
             </ImageBackground>
 
-
+            <PopupDialog
+            ref={(popupDialog) => {
+              this.scaleAnimationDialog = popupDialog;
+            }}
+               dialogAnimation={scaleAnimation}
+                dialogTitle={<DialogTitle title="Error" />}
+               actions={[
+                 <DialogButton
+                   text="DISMISS"
+                   onPress={() => {
+                     this.scaleAnimationDialog.dismiss();
+                   }}
+                   key="button-1"
+                 />,
+               ]}
+             >
+             <View style={styles.dialogContentView}>
+             <Image style={styles.image} source={{uri: mainurl + props.uri}} />
+             </View>
+           </PopupDialog>
 
 
 
@@ -329,3 +342,21 @@ const styles = {
 
 };
 export default IDdetail;
+
+// <ScrollView style={styles.image} horizontal pagingEnabled={true}>
+//     <CardSection horizontal style={styles.image}>
+//
+//
+//         {
+//             before_url.map((item, i) => <Slide1
+//                 uri={item}
+//                 i={i}
+//                 key={i} />)
+//         }
+//
+//
+//
+//
+//
+//     </CardSection>
+// </ScrollView>

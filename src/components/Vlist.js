@@ -22,7 +22,7 @@ const Hour = new Date().getHours();
 const Minute = new Date().getMinutes();
 const Second = new Date().getSeconds();
 
-const currentDate = year + '-' + month + '-' + 19;
+const currentDate = year + '-' + month + '-' + day;
 
 
 
@@ -30,7 +30,8 @@ class Vlist extends Component {
   constructor(param) {
     super(param);
     this._refresh = this._refresh.bind(this);
-
+    this.delete = this._handleDelete.bind(this);
+    delete_id = this.props.delete_id;
   }
   state = { albums: [] };
 
@@ -85,7 +86,7 @@ class Vlist extends Component {
 
     componentWillMount() {
         axios.get(
-          'https://ats-test.pineapplevisionsystems.com/json_violations?after=2017-07-13T11:00:04+07:00' ,
+          'https://ats-test.pineapplevisionsystems.com/json_violations?after=2018-03-19T08:00:04+07:00' ,
 {
             headers: {
               'Accept': 'application/json',
@@ -98,13 +99,28 @@ class Vlist extends Component {
             console.log('https://ats-test.pineapplevisionsystems.com/json_violations?after=' + currentDate);
     }
 
+    _handleDelete(delete_id){
+      this.setState(prevState => ({
+          albums: prevState.albums.filter(album => album != delete_id )
+      }));
+}
 
      renderAlbums() {
-       return (
-         this.state.albums.map(album =>
-         <VDetail key={album.id} album = {album} props = {this.props.navigation} />
-       ));
+        if (this.props.delete_id != null) {
+            this._handleDelete(this.props.delete_id);
+          return (
+            this.state.albums.map(album =>
+            <VDetail key={album.id} album = {album}/>
+          ));
+        } else {
+          return (
+            this.state.albums.map(album =>
+            <VDetail key={album.id} album = {album} props = {this.props.navigation} />
+          ));
+        }
+
      }
+
 
      _refresh() {
        return new Promise((resolve) => {

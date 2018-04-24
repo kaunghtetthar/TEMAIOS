@@ -76,7 +76,6 @@ export default class FindViolation extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center',
     },
     modalContainer: {
         flex: 1,

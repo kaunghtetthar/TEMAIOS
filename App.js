@@ -69,18 +69,14 @@ export default class App extends React.Component {
         } else {
             return (
                 <Router>
-                    <Scene key="root"  hideNavBar panHandlers={null} >
+                    <Scene key="root"  panHandlers={null} >
                         <Scene
                             component={Authentication} hideNavBar={true}
-                            initial={true} key='Authentication'
+                             key='Authentication'
                             title='Authentication'
 
                         />
-
-
-                        <Scene key="main" panHandlers={null}>
                             <Scene
-
                                 component={HomePage}
                                 key='HomePage'
                                 title= 'Violations'
@@ -96,9 +92,10 @@ export default class App extends React.Component {
                             <Scene key="manual_ticket"  component={manual_ticket} title="Ticket"  />
                             <Scene key="manual_warning"  component={manual_warning} title="Warning"  />
                             <Scene key="Ticketlist"  component={Ticketlist} title="Ticketlist"  />
+                            <Scene key="Tab"  component={Tab} title="Back" hideNavBar={true} />
                             <Scene key="go"  component={go} title="go"  />
                         </Scene>
-                    </Scene>
+
                 </Router>
 
 

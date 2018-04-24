@@ -6,6 +6,7 @@ import TabNavigator from 'react-native-tab-navigator';
 import VDetail from './VDetail';
 import {Actions} from 'react-native-router-flux';
 import IDdetail from './IDdetail';
+import IDdetail1 from './IDdetail1';
 import BaseScreen from './BaseScreen';
 
 // import { StackNavigator } from 'react-navigation';
@@ -106,7 +107,7 @@ class Violation extends Component {
        return (
 
          this.state.albums.map(album =>
-         <IDdetail key={album.id} album = {album} />
+         <IDdetail1 key={album.id} album = {album} />
        ));
      }
 

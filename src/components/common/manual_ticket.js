@@ -74,14 +74,14 @@ export default class manual_ticket extends Component {
   render() {
     return (
         <View style={styles.container}>
-                <Text>{this.props.id}</Text>
+                
                 <Card>
 
 
                       <CardSection>
                           <Input
                               placeholder="...."
-                              label="Ticket_number"
+                              label="Ticket_num"
                               value={this.state.ticket_number}
                               onChangeText={username => this.setState({ username })}
                           />
@@ -92,7 +92,7 @@ export default class manual_ticket extends Component {
                           <Input
                               secureTextEntry
                               placeholder="...."
-                              label="Book_number"
+                              label="Book_num"
                               value={this.state.book_number}
                               onChangeText={password => this.setState({ password })}
                           />
@@ -120,7 +120,6 @@ export default class manual_ticket extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
   },
   modalContainer: {
     flex: 1,

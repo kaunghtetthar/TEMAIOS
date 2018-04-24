@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import TabNavigator from 'react-native-tab-navigator';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import { Dimensions, View, Text, AsyncStorage } from 'react-native';
+import { Dimensions, View, Text, AsyncStorage, Image } from 'react-native';
 import LoginForm from './LoginForm';
 import AlbumList from './AlbumList';
 import VlistPage from './VlistPage';
@@ -27,8 +27,9 @@ function px2dp(px) {
 class Home extends Component {
     render() {
         return (
+
             <View style={styles.container}>
-                <Vlist />
+                <Vlist delete_id = {this.props.delete_id} />
             </View>
         );
     }
@@ -65,7 +66,7 @@ class Violation extends Component {
     }
 }
 
-class Profile extends Component {
+class SignOut extends Component {
 
   constructor() {
       super();
@@ -73,56 +74,55 @@ class Profile extends Component {
   }
 
 
-  componentWillMount() {
-      this.getToken();
-  }
-
-  async getToken() {
-    try {
-      let accessToken = await AsyncStorage.getItem(ACCESS_TOKEN);
-    if(!accessToken) {
-      console.log("Token not set")
-    }  else  {
-      this.verifyToken(accessToken);
-    }
-    } catch (error) {
-      console.log("something went wrong !!");
-
-    }
-  }
-
-  async verifyToken(token) {
-    let accessToken = token;
-
-      try {
-      // TODO: localhost doesn't work because the app is running inside an emulator. Get the IP address with ifconfig.
-      let response = await fetch('https://ats-test.pineapplevisionsystems.com/users/sign_in', {
-          method: 'POST',
-          headers: { 'Accept': 'application/json',
-              'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            "user":  {
-          "username": this.state.username,
-          "password": this.state.password,
-        }
-          })
-      });
-
-      let res = await response.text();
-      if(response.status >= 200 && response.status < 300) {
-        // this.setState({error: ""});
-        // let accessToken = res;
-        // this.storeToken(accessToken);
-        Actions.HomePage();
-        console.log("res token: " + accessToken);
-      } else {
-        let errors = res;
-        throw errors;
-      }
-    } catch(error) {
-      console.log( "error" + error );
-      }
-    }
+  // componentWillMount() {
+  //     this.getToken();
+  // }
+  //
+  // async getToken() {
+  //   try {
+  //     let accessToken = await AsyncStorage.getItem(ACCESS_TOKEN);
+  //   if(!accessToken) {
+  //     console.log("Token not set")
+  //   }  else  {
+  //     this.verifyToken(accessToken);
+  //   }
+  //   } catch (error) {
+  //     console.log("something went wrong !!");
+  //
+  //   }
+  // }
+  //
+  // async verifyToken(token) {
+  //   let accessToken = token;
+  //
+  //     try {
+  //     // TODO: localhost doesn't work because the app is running inside an emulator. Get the IP address with ifconfig.
+  //     let response = await fetch('https://ats-test.pineapplevisionsystems.com/users/sign_in', {
+  //         method: 'POST',
+  //         headers: { 'Accept': 'application/json',
+  //             'Content-Type': 'application/json' },
+  //         body: JSON.stringify({
+  //           "user":  {
+  //         "username": this.state.username,
+  //         "password": this.state.password,
+  //       }
+  //         })
+  //     });
+  //
+  //     let res = await response.text();
+  //     if(response.status >= 200 && response.status < 300) {
+  //       // this.setState({error: ""});
+  //       // let accessToken = res;
+  //       // this.storeToken(accessToken);
+  //       console.log("res token: " + accessToken);
+  //     } else {
+  //       let errors = res;
+  //       throw errors;
+  //     }
+  //   } catch(error) {
+  //     console.log( "error" + error );
+  //     }
+  //   }
 
   async onLogout() {
 
@@ -160,15 +160,26 @@ class Profile extends Component {
 
     render() {
         return (
-                <Card>
+                <View style={styles.signout_container}>
+
+                <CardSection>
+                    <Image
+                        style={{width: 350, height: 100}}
+                        source={require('./assets/logo.png')}
+                    />
+                </CardSection>
+
+
                 <CardSection>
 
                 <Button onPress={this.onLogout.bind(this)}>
                 Sign out
                 </Button>
 
+
+
                 </CardSection>
-                </Card>
+                </View>
         );
     }
 }
@@ -221,7 +232,7 @@ class Tab extends Component {
                 renderIcon={() => <Icon name="user" size={px2dp(22)} color="#666"/>}
                 renderSelectedIcon={() => <Icon name="user" size={px2dp(22)} color="#3496f0"/>}
                 onPress={() => this.setState({selectedTab: 'profile'})}>
-                 <Profile />
+                 <SignOut />
             </TabNavigator.Item>
 
 
@@ -247,6 +258,12 @@ const styles = {
     container: {
         flex: 1,
         // justifyContent: 'center',
+        // alignItems: 'center',
+        backgroundColor: '#F5FCFF',
+    },
+    signout_container: {
+        flex: 1,
+        justifyContent: 'center',
         // alignItems: 'center',
         backgroundColor: '#F5FCFF',
     },

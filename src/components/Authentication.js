@@ -9,6 +9,18 @@ import axios from 'axios';
 import Tab from './Tab';
 
 
+const slideAnimation = new SlideAnimation({ slideFrom: 'bottom' });
+const scaleAnimation = new ScaleAnimation();
+const fadeAnimation = new FadeAnimation({ animationDuration: 150 });
+import PopupDialog, {
+  DialogTitle,
+  DialogButton,
+  SlideAnimation,
+  ScaleAnimation,
+  FadeAnimation,
+} from 'react-native-popup-dialog';
+
+
 const ACCESS_TOKEN = 'access_token';
 
 
@@ -29,6 +41,12 @@ class Authentication extends Component {
         this.state = { username: null, password: null, isLoading: false, error: ""};
 
     }
+
+
+
+    showScaleAnimationDialog = () => {
+   this.scaleAnimationDialog.show();
+ }
 
 
 
@@ -100,7 +118,7 @@ class Authentication extends Component {
           // this.setState({error: ""});
           // let accessToken = res;
           // this.storeToken(accessToken);
-          Actions.HomePage();
+          Actions.Tab();
           console.log("res token: " + accessToken);
         } else {
           let errors = res;
@@ -135,15 +153,19 @@ class Authentication extends Component {
           this.setState({error: ""});
           let accessToken = res;
           this.storeToken(accessToken);
-          Actions.HomePage();
+          Actions.Tab();
+
           console.log("res token: " + accessToken);
         } else {
-          let errors = res;
-          throw errors;
+          let errors1 = res;
+          errors2 = errors1.slice(9)
+          errors = errors2.replace( '}', ' ')
+          throw errors.replace( /["']/g, ' ');
         }
       } catch(error) {
         this.removeToken();
-        this.setState({error: error});
+        this.setState({error : error});
+        this.showScaleAnimationDialog();
         console.log( "error" + error );
         }
       }
@@ -180,7 +202,8 @@ class Authentication extends Component {
 
     render() {
         return (
-            <Card>
+            <View style={{flex : 1}}>
+             <View style={styles.container}>
 
             <CardSection>
                 <Image
@@ -189,16 +212,14 @@ class Authentication extends Component {
                 />
             </CardSection>
 
-
                 <CardSection>
                     <Input
                         placeholder="username"
-                        label="user"
+                        label="Username"
                         value={this.state.username}
                         onChangeText={username => this.setState({ username })}
                     />
                 </CardSection>
-
 
                 <CardSection>
                     <Input
@@ -217,14 +238,31 @@ class Authentication extends Component {
 
                 </CardSection>
 
+                <PopupDialog
+                   ref={(popupDialog) => {
+                     this.scaleAnimationDialog = popupDialog;
+                   }}
+                   dialogAnimation={scaleAnimation}
+                   // dialogTitle={<DialogTitle title="Error" />}
+                   actions={[
+                     <DialogButton
+                       text="DISMISS"
+                       onPress={() => {
+                         this.scaleAnimationDialog.dismiss();
+                       }}
+                       key="button-1"
+                     />,
+                   ]}
+                 >
+                 <View style={styles.dialogContentView}>
+                 <Text style={StyleSheet.errorTextStyle}>
+                     {this.state.error}
+                 </Text>
+                 </View>
+               </PopupDialog>
 
-
-
-                <Text style={StyleSheet.errorTextStyle}>
-                    {this.state.error}
-                </Text>
-
-            </Card>
+                </View>
+            </View>
         );
     }
 }
@@ -232,8 +270,13 @@ class Authentication extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#e6fff5',
     },
+    dialogContentView: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
     errorTextStyle: {
         fontSize: 20,
         alignSelf: 'center',

@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import TabNavigator from 'react-native-tab-navigator';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import { Dimensions, View, Text, AsyncStorage } from 'react-native';
+import { Dimensions, View, Text, AsyncStorage, Image } from 'react-native';
 import LoginForm from './LoginForm';
 import AlbumList from './AlbumList';
 import VlistPage from './VlistPage';
@@ -149,13 +149,18 @@ class Profile extends Component {
     render() {
         return (
                 <Card>
-                <CardSection>
 
+
+
+
+                <CardSection>
                 <Button onPress={this.onLogout.bind(this)}>
                 Sign out
                 </Button>
 
                 </CardSection>
+
+
                 </Card>
         );
     }
@@ -172,6 +177,15 @@ class SignOut extends Component {
     return (
 
                 <View style={styles.container}>
+
+                <CardSection>
+                    <Image
+                        style={{width: 350, height: 100}}
+                        source={require('./assets/logo.png')}
+                    />
+                </CardSection>
+
+
                  <Profile />
                  </View>
 
@@ -188,6 +202,7 @@ const styles = {
         flex: 1,
         // justifyContent: 'center',
         // alignItems: 'center',
+        justifyContent: 'center',
         backgroundColor: '#F5FCFF',
     },
     welcome: {

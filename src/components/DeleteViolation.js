@@ -91,7 +91,7 @@ export default class DeleteViolation extends Component {
         // this.setState({error: ""});
         // let accessToken = res;
         // this.storeToken(accessToken);
-        Actions.Vlist();
+        Actions.HomePage();
 
         console.log("success login" + res);
       } else {
@@ -105,8 +105,8 @@ export default class DeleteViolation extends Component {
 
   async deleteToken() {
   try {
-    await AsyncStorage.removeItem(ACCESS_TOKEN);
-    Actions.Authentication();
+    await AsyncStorage.get(ACCESS_TOKEN);
+    Actions.HomePage();
   } catch (error) {
     console.log("SomeThing went wrong");
   }
@@ -118,7 +118,7 @@ export default class DeleteViolation extends Component {
                 <Card>
                 <CardSection>
 
-                <Button onPress={this.Delete.bind(this)}>
+                <Button onPress={() => Actions.Tab()}>
                 Delete Violation
                 </Button>
 
