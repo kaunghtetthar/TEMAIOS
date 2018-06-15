@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>Выберите свой регион для поддержки Seagate Dashboard</label>
+  <menu>
+    <option>
+      <label>Прежде чем звонить, зайдите на веб-сайт поддержки клиентов Seagate.</label>
+      <support>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+      </support>
+      <phones>
+        <label></label>
+      </phones>
+      <languages>
+      </languages>
+      <hours>
+        <label></label>
+      </hours>
+    </option>
+    <option>
+      <label>Соединенные Штаты, Канада, Латинская Америка, Мексика</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.SEAGATE</label>
+        <label>1.800.732.4283</label>
+        <label>1.405.324.4700</label>
+      </phones>
+      <languages>Английский, французский, португальский и испанский</languages>
+      <hours>
+        <label>8:00–18:00 (центральное время)</label>
+        <label>Понедельник – пятница</label>
+      </hours>
+    </option>
+    <option>
+      <label>Бразилия</label>
+      <support>
+        <link>
+		  <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.891.5814</label>
+      </phones>
+      <languages>Английский, французский, португальский и испанский</languages>
+      <hours>
+        <label>9:00–18:00</label>
+        <label>Понедельник – пятница</label>
+      </hours>
+    </option>
+    <option>
+      <label>Бельгия, Дания, Франция, Германия, Ирландия, Италия, Нидерланды, Норвегия, Польша, Испания, Швеция, Швейцария, Соединенное Королевство</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>00.800.4732.4283</label>
+      </phones>
+      <languages>Английский, французский, немецкий, испанский</languages>
+      <hours>
+        <label>8:00–17:00 (среднеевропейское время)</label>
+        <label>Понедельник – пятница</label>
+      </hours>
+    </option>
+    <option>
+      <label>Европа, Ближний и Средний Восток, Африка</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.405.324.4714</label>
+      </phones>
+      <languages>Английский, французский, немецкий, испанский</languages>
+      <hours>
+        <label>8:00–17:00 (среднеевропейское время)</label>
+        <label>Понедельник – пятница</label>
+      </hours>
+    </option>
+    <option>
+      <label>Австралия</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14.7201</label>
+      </phones>
+      <languages>Английский</languages>
+      <hours>
+        <label>10:00–19:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Австралийское стандартное время (GMT +10)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Китай</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>4008 878790</label>
+      </phones>
+      <languages>Английский, мандаринское наречие китайского языка, кантонский диалект китайского языка</languages>
+      <hours>
+        <label>8:00–17:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Китайское стандартное время (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Гонконг</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.90.0474</label>
+      </phones>
+      <languages>Английский, мандаринское наречие китайского языка, кантонский диалект китайского языка</languages>
+      <hours>
+        <label>8:00–17:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Гонконгское стандартное время (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Индия</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>000.800.440.1392</label>
+      </phones>
+      <languages>Английский</languages>
+      <hours>
+        <label>5:30–16:30</label>
+        <label>Понедельник – пятница</label>
+        <label>Индийское стандартное время (GMT +5,5)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Индонезия</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.803.657.090</label>
+      </phones>
+      <languages>Английский</languages>
+      <hours>
+        <label>07:00–16:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Индонезийское стандартное время (GMT+7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Япония</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0120.993280</label>
+      </phones>
+      <languages>Японский</languages>
+      <hours>
+        <label>9:00–18:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Японское стандартное время (GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Южная Корея</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>007.98.441.2491</label>
+      </phones>
+      <languages>Английский, корейский</languages>
+      <hours>
+        <label>9:00–18:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Южнокорейское стандартное время (GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Малайзия</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.80.2335</label>
+      </phones>
+      <languages>Английский, мандаринское наречие китайского языка, кантонский диалект китайского языка</languages>
+      <hours>
+        <label>8:00-17:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Малайзийское стандартное время (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Новая Зеландия</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.443988</label>
+      </phones>
+      <languages>Английский</languages>
+      <hours>
+        <label>13:00–22:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Новозеландское стандартное время (GMT +12)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Филиппины</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14410356</label>
+      </phones>
+      <languages>Английский</languages>
+      <hours>
+        <label>8:00–17:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Филиппинское стандартное время (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Сингапур</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.110.1150</label>
+      </phones>
+      <languages>Английский, мандаринское наречие китайского языка, кантонский диалект китайского языка</languages>
+      <hours>
+        <label>8:00–17:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Сингапурское стандартное время (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Тайвань</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0800666910</label>
+        <label>0026564852612</label>
+      </phones>
+      <languages>Английский, мандаринское наречие китайского языка, кантонский диалект китайского языка</languages>
+      <hours>
+        <label>8:00–17:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Тайваньское стандартное время (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Таиланд</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.800.11.0032165</label>
+      </phones>
+      <languages>Английский</languages>
+      <hours>
+        <label>07:00–16:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Таиландское стандартное время (GMT +7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Вьетнам</label>
+      <support>
+        <link>
+          <label>Отправить информацию по электронной почте</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>Код доступа:</label>
+        <label>   1-201-0288+</label>
+        <label>888-268-3308</label>
+      </phones>
+      <languages>Английский</languages>
+      <hours>
+        <label>07:00–16:00</label>
+        <label>Понедельник – пятница</label>
+        <label>Вьетнамское стандартное время (GMT +7)</label>
+      </hours>
+    </option>
+  </menu>
+</regionInfo>

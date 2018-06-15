@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<productInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <product>Expansion Desk</product>
+  <links>
+    <link>
+      <label>Produktinformationen</label>
+      <comments>
+        <comment>Datenblätter und Spezifikationen</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/products/desktop-storage/desktop-external-drives/expansion-hard-drive/</url>
+      <tooltip>Öffnet eine Seite mit Produktinformationen im Browser.</tooltip>
+    </link>
+    <link>
+      <label>Support-Informationen</label>
+      <comments>
+        <comment>Troubleshooting</comment>
+        <comment>Anleitungen und häufig gestellte Fragen</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/support/desktop-storage/desktop-external-drives/expansion-hard-drive/</url>
+      <tooltip>Öffnet eine Seite mit Support-Informationen im Browser.</tooltip>
+    </link>
+  </links>
+</productInfo>

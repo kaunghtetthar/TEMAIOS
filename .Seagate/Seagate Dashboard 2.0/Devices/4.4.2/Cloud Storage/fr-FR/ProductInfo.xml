@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <product>Cloud Storage</product>
+  <links>
+    <link>
+      <label>Informations de support</label>
+      <comments>
+        <comment>Dépannage et téléchargements</comment>
+        <comment>Procédures d'utilisation et foire aux questions</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/support/software/dashboard/</url>
+      <tooltip>Ouvrez le site du support produits dans un navigateur.</tooltip>
+    </link>
+  </links>
+</productInfo>

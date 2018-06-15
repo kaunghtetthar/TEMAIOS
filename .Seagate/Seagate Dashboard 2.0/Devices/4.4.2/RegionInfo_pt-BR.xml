@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>Selecione a região para suporte do Seagate Dashboard</label>
+  <menu>
+    <option>
+      <label>Consulte o Suporte ao cliente Seagate antes de ligar.</label>
+      <support>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+      </support>
+      <phones>
+        <label></label>
+      </phones>
+      <languages>
+      </languages>
+      <hours>
+        <label></label>
+      </hours>
+    </option>
+    <option>
+      <label>Estados Unidos, Canadá, América Latina, México</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.SEAGATE</label>
+        <label>1.800.732.4283</label>
+        <label>1.405.324.4700</label>
+      </phones>
+      <languages>Inglês, francês, português e espanhol</languages>
+      <hours>
+        <label>8h às 18h (horário zona central América do Norte)</label>
+        <label>Segunda a sexta</label>
+      </hours>
+    </option>
+    <option>
+      <label>Brasil</label>
+      <support>
+        <link>
+		  <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.891.5814</label>
+      </phones>
+      <languages>Inglês, francês, português e espanhol</languages>
+      <hours>
+        <label>9h às 18h</label>
+        <label>Segunda a sexta</label>
+      </hours>
+    </option>
+    <option>
+      <label>Bélgica, Dinamarca, França, Alemanha, Irlanda, Itália, Holanda, Noruega, Polônia, Espanha, Suécia, Suíça, Reino Unido.</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>00.800.4732.4283</label>
+      </phones>
+      <languages>Inglês, francês, alemão, espanhol</languages>
+      <hours>
+        <label>8h às 17h (horário Europa central)</label>
+        <label>Segunda a sexta</label>
+      </hours>
+    </option>
+    <option>
+      <label>Europa, Oriente Médio, África</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.405.324.4714</label>
+      </phones>
+      <languages>Inglês, francês, alemão, espanhol</languages>
+      <hours>
+        <label>8h às 17h (horário Europa central)</label>
+        <label>Segunda a sexta</label>
+      </hours>
+    </option>
+    <option>
+      <label>Austrália</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14.7201</label>
+      </phones>
+      <languages>Inglês</languages>
+      <hours>
+        <label>10h às 19:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local da Austrália (GMT +10)</label>
+      </hours>
+    </option>
+    <option>
+      <label>China</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>4008 878790</label>
+      </phones>
+      <languages>Inglês, mandarim, cantonês</languages>
+      <hours>
+        <label>8h às 17:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local da China (GMT +8 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Hong Kong</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.90.0474</label>
+      </phones>
+      <languages>Inglês, mandarim, cantonês</languages>
+      <hours>
+        <label>8h às 17:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local de Hong Kong (GMT +8 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Índia</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>000.800.440.1392</label>
+      </phones>
+      <languages>Inglês</languages>
+      <hours>
+        <label>5:30h às 14:30h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local da Índia (GMT +5,5 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Indonésia</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.803.657.090</label>
+      </phones>
+      <languages>Inglês</languages>
+      <hours>
+        <label>7h às 16:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local da Indonésia (GMT+7 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Japão</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0120.993280</label>
+      </phones>
+      <languages>Japonês</languages>
+      <hours>
+        <label>9h às 18:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local do Japão (GMT +9 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Coreia do Sul</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>007.98.441.2491</label>
+      </phones>
+      <languages>Inglês, coreano</languages>
+      <hours>
+        <label>9h às 18:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local da Coreia do Sul (GMT +9 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Malásia</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.80.2335</label>
+      </phones>
+      <languages>Inglês, mandarim, cantonês</languages>
+      <hours>
+        <label>8h às 17:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local da Malásia (GMT +8 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Nova Zelândia</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.443988</label>
+      </phones>
+      <languages>Inglês</languages>
+      <hours>
+        <label>13h às 22:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local da Nova Zelândia (GMT +12 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Filipinas</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14410356</label>
+      </phones>
+      <languages>Inglês</languages>
+      <hours>
+        <label>8h às 17:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local das Filipinas (GMT +8 - - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Cingapura</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.110.1150</label>
+      </phones>
+      <languages>Inglês, mandarim, cantonês</languages>
+      <hours>
+        <label>8h às 17:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local de Cingapura (GMT +8 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Taiwan</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0800666910</label>
+        <label>0026564852612</label>
+      </phones>
+      <languages>Inglês, mandarim, cantonês</languages>
+      <hours>
+        <label>8h às 17:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local de Taiwan (GMT +8 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Tailândia</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.800.11.0032165</label>
+      </phones>
+      <languages>Inglês</languages>
+      <hours>
+        <label>7h às 16:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local da Tailândia (GMT +7 - horário de Greenwich)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Vietnã</label>
+      <support>
+        <link>
+          <label>Enviar caso via e-mail</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>Código de acesso:</label>
+        <label>   1-201-0288+</label>
+        <label>888-268-3308</label>
+      </phones>
+      <languages>Inglês</languages>
+      <hours>
+        <label>7h às 16:00h</label>
+        <label>Segunda a sexta</label>
+        <label>Horário local do Vietnã (GMT +7 - horário de Greenwich)</label>
+      </hours>
+    </option>
+  </menu>
+</regionInfo>

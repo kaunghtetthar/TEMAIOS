@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>Selecteer uw regio voor ondersteuning voor Seagate Dashboard</label>
+  <menu>
+    <option>
+      <label>Kijk voordat u belt eerst op de website voor klantenondersteuning van Seagate.</label>
+      <support>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+      </support>
+      <phones>
+        <label></label>
+      </phones>
+      <languages>
+      </languages>
+      <hours>
+        <label></label>
+      </hours>
+    </option>
+    <option>
+      <label>Verenigde Staten, Canada, Latijns-Amerika, Mexico</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.SEAGATE</label>
+        <label>1.800.732.4283</label>
+        <label>1.405.324.4700</label>
+      </phones>
+      <languages>Engels, Frans, Portugees en Spaans</languages>
+      <hours>
+        <label>8:00 - 18:00 uur CT</label>
+        <label>Maandag - vrijdag</label>
+      </hours>
+    </option>
+    <option>
+      <label>Brazilië</label>
+      <support>
+        <link>
+		  <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.891.5814</label>
+      </phones>
+      <languages>Engels, Frans, Portugees en Spaans</languages>
+      <hours>
+        <label>9:00 - 18:00 uur</label>
+        <label>Maandag - vrijdag</label>
+      </hours>
+    </option>
+    <option>
+      <label>België, Denemarken, Duitsland, Frankrijk, Ierland, Italië, Nederland, Noorwegen, Polen, Spanje, Verenigd Koninkrijk, Zweden, Zwitserland</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>00.800.4732.4283</label>
+      </phones>
+      <languages>Duits, Engels, Frans, Spaans</languages>
+      <hours>
+        <label>8:00 - 17:00 uur CET</label>
+        <label>Maandag - vrijdag</label>
+      </hours>
+    </option>
+    <option>
+      <label>Europa, Midden-Oosten, Afrika</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.405.324.4714</label>
+      </phones>
+      <languages>Duits, Engels, Frans, Spaans</languages>
+      <hours>
+        <label>8:00 - 17:00 uur CET</label>
+        <label>Maandag - vrijdag</label>
+      </hours>
+    </option>
+    <option>
+      <label>Australië</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14.7201</label>
+      </phones>
+      <languages>Engels</languages>
+      <hours>
+        <label>10:00 - 19:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Australische Oostelijke Standaardtijd (GMT +10)</label>
+      </hours>
+    </option>
+    <option>
+      <label>China</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>4008 878790</label>
+      </phones>
+      <languages>Engels, Mandarijn, Kantonees</languages>
+      <hours>
+        <label>8:00 - 17:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>China-standaardtijd (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Hongkong</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.90.0474</label>
+      </phones>
+      <languages>Engels, Mandarijn, Kantonees</languages>
+      <hours>
+        <label>8:00 - 17:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Hongkongtijd (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>India</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>000.800.440.1392</label>
+      </phones>
+      <languages>Engels</languages>
+      <hours>
+        <label>5:30 - 16:30 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Indische Standaardtijd (GMT +5,5)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Indonesië</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.803.657.090</label>
+      </phones>
+      <languages>Engels</languages>
+      <hours>
+        <label>7:00 - 16:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Indonesische Westelijke Standaardtijd (GMT+7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Japan</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0120.993280</label>
+      </phones>
+      <languages>Japans</languages>
+      <hours>
+        <label>9:00 - 18:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Japan-standaardtijd (GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Zuid-Korea</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>007.98.441.2491</label>
+      </phones>
+      <languages>Engels, Koreaans</languages>
+      <hours>
+        <label>9:00 - 18:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Korea-standaardtijd (GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Maleisië</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.80.2335</label>
+      </phones>
+      <languages>Engels, Mandarijn, Kantonees</languages>
+      <hours>
+        <label>8:00 - 17:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Maleisische Standaardtijd (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Nieuw-Zeeland</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.443988</label>
+      </phones>
+      <languages>Engels</languages>
+      <hours>
+        <label>13:00 - 22:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Nieuw-Zeeland Standaardtijd (GMT +12)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Filipijnen</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14410356</label>
+      </phones>
+      <languages>Engels</languages>
+      <hours>
+        <label>8:00 - 17:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Filipijnse Standaardtijd (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Singapore</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.110.1150</label>
+      </phones>
+      <languages>Engels, Mandarijn, Kantonees</languages>
+      <hours>
+        <label>8:00 - 17:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Singaporese Standaardtijd (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Taiwan</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0800666910</label>
+        <label>0026564852612</label>
+      </phones>
+      <languages>Engels, Mandarijn, Kantonees</languages>
+      <hours>
+        <label>8:00 - 17:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Taiwantijd (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Thailand</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.800.11.0032165</label>
+      </phones>
+      <languages>Engels</languages>
+      <hours>
+        <label>7:00 - 16:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Thailandstandaardtijd (GMT +7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Vietnam</label>
+      <support>
+        <link>
+          <label>Probleem e-mailen</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>Toegangscode:</label>
+        <label>   1-201-0288+</label>
+        <label>888-268-3308</label>
+      </phones>
+      <languages>Engels</languages>
+      <hours>
+        <label>7:00 - 16:00 uur</label>
+        <label>Maandag - vrijdag</label>
+        <label>Vietnamstandaardtijd (GMT +7)</label>
+      </hours>
+    </option>
+  </menu>
+</regionInfo>

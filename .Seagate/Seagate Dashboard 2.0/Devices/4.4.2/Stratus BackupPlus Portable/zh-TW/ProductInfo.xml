@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<productInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <product>Stratus BackupPlus Portable</product>
+  <links>
+    <link>
+      <label>產品資訊</label>
+      <comments>
+        <comment>資料表和規格</comment>
+        <comment>審閱和文章</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/external-hard-drives/portable-hard-drives/standard/backup-plus-usm/</url>
+      <tooltip>在瀏覽器中開啟產品資訊網站。</tooltip>
+    </link>
+    <link>
+      <label>支援資訊</label>
+      <comments>
+        <comment>疑難排解和下載</comment>
+        <comment>操作方法與常見問題</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/support/external-hard-drives/portable-hard-drives/backup-plus/</url>
+      <tooltip>在瀏覽器中開啟產品支援網站。</tooltip>
+    </link>
+  </links>
+</productInfo>

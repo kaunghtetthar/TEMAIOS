@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>Seagate Dashboardに関するお問い合わせについては、お住まいの地域サポートを選択して下さい</label>
+  <menu>
+    <option>
+      <label>お電話いただく前に Seagate カスタマー サポート サイトもご参照ください。</label>
+      <support>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+      </support>
+      <phones>
+        <label></label>
+      </phones>
+      <languages>
+      </languages>
+      <hours>
+        <label></label>
+      </hours>
+    </option>
+    <option>
+      <label>米国、カナダ、中南米、メキシコ</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.SEAGATE</label>
+        <label>1.800.732.4283</label>
+        <label>1.405.324.4700</label>
+      </phones>
+      <languages>英語、フランス語、ポルトガル語、スペイン語</languages>
+      <hours>
+        <label>午前 8 時～午前 6 時 (中部時間)</label>
+        <label>月～金</label>
+      </hours>
+    </option>
+    <option>
+      <label>ブラジル</label>
+      <support>
+        <link>
+		  <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.891.5814</label>
+      </phones>
+      <languages>英語、フランス語、ポルトガル語、スペイン語</languages>
+      <hours>
+        <label>午前 9 時～午前 18 時</label>
+        <label>月～金</label>
+      </hours>
+    </option>
+    <option>
+      <label>ベルギー、デンマーク、フランス、ドイツ、アイルランド、イタリア、オランダ、ノルウェー、ポーランド、スペイン、スウェーデン、スイス、英国</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>00.800.4732.4283</label>
+      </phones>
+      <languages>英語、フランス語、ドイツ語、スペイン語</languages>
+      <hours>
+        <label>午前 8 時～午前 5 時 (中央ヨーロッパ時間)</label>
+        <label>月～金</label>
+      </hours>
+    </option>
+    <option>
+      <label>ヨーロッパ、中東、アフリカ</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.405.324.4714</label>
+      </phones>
+      <languages>英語、フランス語、ドイツ語、スペイン語</languages>
+      <hours>
+        <label>午前 8 時～午前 5 時 (中央ヨーロッパ時間)</label>
+        <label>月～金</label>
+      </hours>
+    </option>
+    <option>
+      <label>オーストラリア</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14.7201</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>午前 10 時～午後 7 時 00 分</label>
+        <label>月～金</label>
+        <label>オーストラリア標準時間 (グリニッジ標準時 +10 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>中国</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>4008 878790</label>
+      </phones>
+      <languages>英語、標準中国語、広東語</languages>
+      <hours>
+        <label>午前 8 時～午前 5 時 00 分</label>
+        <label>月～金</label>
+        <label>中国標準時間 (グリニッジ標準時 +8 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>香港</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.90.0474</label>
+      </phones>
+      <languages>英語、標準中国語、広東語</languages>
+      <hours>
+        <label>午前 8 時～午前 5 時 00 分</label>
+        <label>月～金</label>
+        <label>香港標準時間 (グリニッジ標準時 +8 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>インド</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>000.800.440.1392</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>午前 5 時 30 分～午前 4 時 30</label>
+        <label>月～金</label>
+        <label>インド標準時間 (グリニッジ標準時 +5.5 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>インドネシア</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.803.657.090</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>午前 7 時～午前 4 時 00 分</label>
+        <label>月～金</label>
+        <label>インドネシア標準時間 (グリニッジ標準時 +7 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>日本</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0120.993280</label>
+      </phones>
+      <languages>日本語</languages>
+      <hours>
+        <label>午前 9 時～正午 6 時 00 分</label>
+        <label>月～金</label>
+        <label>日本標準時間 (グリニッジ標準時 +9 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>韓国</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>007.98.441.2491</label>
+      </phones>
+      <languages>英語、韓国語</languages>
+      <hours>
+        <label>午前 9 時～正午 6 時 00 分</label>
+        <label>月～金</label>
+        <label>韓国標準時間 (グリニッジ標準時 +9 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>マレーシア</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.80.2335</label>
+      </phones>
+      <languages>英語、標準中国語、広東語</languages>
+      <hours>
+        <label>午前 8 時～午前 5 時 00 分</label>
+        <label>月～金</label>
+        <label>マレーシア標準時間 (グリニッジ標準時 +8 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>ニュージーランド</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.443988</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>午後 1 時～午後 10 時 00 分</label>
+        <label>月～金</label>
+        <label>ニュージーランド標準時間 (グリニッジ標準時 +12 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>フィリピン</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14410356</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>午前 8 時～午前 5 時 00 分</label>
+        <label>月～金</label>
+        <label>フィリピン標準時間 (グリニッジ標準時 +8 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>シンガポール</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.110.1150</label>
+      </phones>
+      <languages>英語、標準中国語、広東語</languages>
+      <hours>
+        <label>午前 8 時～午前 5 時 00 分</label>
+        <label>月～金</label>
+        <label>シンガポール標準時間 (グリニッジ標準時 +8 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>台湾</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0800666910</label>
+        <label>0026564852612</label>
+      </phones>
+      <languages>英語、標準中国語、広東語</languages>
+      <hours>
+        <label>午前 8 時～午前 5 時 00 分</label>
+        <label>月～金</label>
+        <label>台湾標準時間 (グリニッジ標準時 +8 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>タイ</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.800.11.0032165</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>午前 7 時～午前 4 時 00 分</label>
+        <label>月～金</label>
+        <label>タイ標準時間 (グリニッジ標準時 +7 時間)</label>
+      </hours>
+    </option>
+    <option>
+      <label>ベトナム</label>
+      <support>
+        <link>
+          <label>サポート リクエストを電子メールで提出</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>アクセス コード:</label>
+        <label>   1-201-0288+</label>
+        <label>888-268-3308</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>午前 7 時～午前 4 時 00 分</label>
+        <label>月～金</label>
+        <label>ベトナム標準時間 (グリニッジ標準時 +7 時間)</label>
+      </hours>
+    </option>
+  </menu>
+</regionInfo>

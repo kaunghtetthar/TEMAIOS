@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<productInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <product>BackupPlus Portable</product>
+  <links>
+    <link>
+      <label>Informações sobre produto</label>
+      <comments>
+        <comment>Folhetos técnicos e especificações</comment>
+        <comment>Análises e artigos</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.dell.com/support/manuals/</url>
+      <tooltip>Abra o site de informações do produto em um navegador.</tooltip>
+    </link>
+    <link>
+      <label>Informações de suporte</label>
+      <comments>
+        <comment>Solução de problemas e downloads</comment>
+        <comment>Como fazer e Perguntas mais frequentes</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/support/software/dashboard/</url>
+      <tooltip>Abra o site de suporte ao produto em um navegador.</tooltip>
+    </link>
+  </links>
+</productInfo>

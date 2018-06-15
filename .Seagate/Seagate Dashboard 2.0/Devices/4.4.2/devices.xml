@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices>
+	<device>
+		<FW_name>Cloud</FW_name>
+		<color>default</color>
+		<product_name>Cloud Storage</product_name>
+		<label>Cloud</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>3b2b54a3-5512-4a2b-93f2</FW_name>
+		<color>default</color>
+		<product_name>Central</product_name>
+		<label>Central</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>no</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>SH1D</FW_name> 
+		<color>default </color>
+		<product_name>Central</product_name>
+		<label>Central</label>
+			<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>no</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>848839e4-06cb-41c0-b670</FW_name>
+		<color>default</color>
+		<product_name>Personal Cloud</product_name>
+		<label>Personal Cloud</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>no</cloud>
+			<mobile>yes</mobile>
+			<sync>yes</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>cumulus</FW_name> 
+		<color>default </color>
+		<product_name>Personal Cloud</product_name>
+		<label>Personal Cloud</label>
+			<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>no</cloud>
+			<mobile>yes</mobile>
+			<sync>yes</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>4ffb5065-b849-3603-1c87</FW_name>
+		<color>default</color>
+		<product_name>Personal Cloud 2 Bay</product_name>
+		<label>Personal Cloud 2 Bay</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>no</cloud>
+			<mobile>yes</mobile>
+			<sync>yes</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>cumulusmax</FW_name> 
+		<color>default </color>
+		<product_name>Personal Cloud 2 Bay</product_name>
+		<label>Personal Cloud 2 Bay</label>
+			<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>no</cloud>
+			<mobile>yes</mobile>
+			<sync>yes</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Innov8</FW_name>
+		<color>default</color>
+		<product_name>Innov8</product_name>
+		<label>Innov8</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Seven</FW_name>
+		<color>default</color>
+		<product_name>Seven</product_name>
+		<label>Seagate Seven</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ Desktop</FW_name>
+		<color>default</color>
+		<product_name>BackupPlusDesk</product_name>
+		<label>BackupPlus Desktop</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ Hub BK</FW_name>
+		<color>Black</color>
+		<product_name>BackupPlusDesk Hub</product_name>
+		<label>BackupPlus Hub</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ Hub SL</FW_name>
+		<color>Silver</color>
+		<product_name>BackupPlusDesk Hub</product_name>
+		<label>BackupPlus Hub</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ Hub WH</FW_name>
+		<color>White</color>
+		<product_name>BackupPlusDesk Hub</product_name>
+		<label>BackupPlus Hub</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+
+	<device>
+		<FW_name>Ultra Slim GD</FW_name>
+		<color>UltraGold</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Ultra Slim RG</FW_name>
+		<color>UltraGold</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Ultra Slim PL</FW_name>
+		<color>UltraSilver</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Ultra Slim MT</FW_name>
+		<color>UltraMetal</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+
+
+	<device>
+		<FW_name>BUP BK</FW_name>
+		<color>black</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP SL</FW_name>
+		<color>silver</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP BL</FW_name>
+		<color>blue</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP RD</FW_name>
+		<color>red</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP GD</FW_name>
+		<color>gold</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP RG</FW_name>
+		<color>gold</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Mac SL</FW_name>
+		<color>silver</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+
+	<device>
+		<FW_name>Backup+ BK</FW_name>
+		<color>black</color>
+		<product_name>Stratus BackupPlus Portable</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  BK</FW_name>
+		<color>black</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Slim BK</FW_name>
+		<color>black</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ BL</FW_name>
+		<color>blue</color>
+		<product_name>Stratus BackupPlus Portable</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  BL</FW_name>
+		<color>blue</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Slim BL</FW_name>
+		<color>blue</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ RD</FW_name>
+		<color>red</color>
+		<product_name>Stratus BackupPlus Portable</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  RD</FW_name>
+		<color>red</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Slim RD</FW_name>
+		<color>red</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  GD</FW_name>
+		<color>gold</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  RG</FW_name>
+		<color>gold</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Slim GD</FW_name>
+		<color>gold</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Slim RG</FW_name>
+		<color>gold</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ SL</FW_name>
+		<color>silver</color>
+		<product_name>Stratus BackupPlus Portable</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  SL</FW_name>
+		<color>silver</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Slim SL</FW_name>
+		<color>silver</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ VL</FW_name>
+		<color>violet</color>
+		<product_name>Stratus BackupPlus Portable</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ WH</FW_name>
+		<color>white</color>
+		<product_name>Stratus BackupPlus Portable</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  WH</FW_name>
+		<color>white</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Slim WH</FW_name>
+		<color>white</color>
+		<product_name>BackupPlus Portable 2013</product_name>
+		<label>Backup Plus Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+
+
+	<device>
+		<FW_name>Backup+ Mac SL</FW_name>
+		<color>default</color>
+		<product_name>Stratus BackupPlus Portable Mac</product_name>
+		<label>Backup Plus</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  Mac SL</FW_name>
+		<color>default</color>
+		<product_name>BackupPlus Portable Mac 2013</product_name>
+		<label>Backup Plus Mac</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Slim Mac SL</FW_name>
+		<color>default</color>
+		<product_name>BackupPlus Portable Mac 2013</product_name>
+		<label>Backup Plus Slim Mac</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ Desk</FW_name>
+		<color>default</color>
+		<product_name>Stratus BackupPlus Desk</product_name>
+		<label>Backup Plus Desktop</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  Desk</FW_name>
+		<color>default</color>
+		<product_name>BackupPlus Desktop 2013</product_name>
+		<label>Backup Plus Desktop</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+ Desk Mac</FW_name>
+		<color>default</color>
+		<product_name>Stratus BackupPlus Desk Mac</product_name>
+		<label>Backup Plus Desktop Mac</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Backup+  Desk M</FW_name>
+		<color>default</color>
+		<product_name>BackupPlus Desktop Mac 2013</product_name>
+		<label>Backup Plus Desktop Mac</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Fast SSD</FW_name>
+		<color>default</color>
+		<product_name>Fast SSD</product_name>
+		<label>Backup Plus Fast SSD</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Fast HDD</FW_name>
+		<color>default</color>
+		<product_name>Fast HDD</product_name>
+		<label>Backup Plus Fast HDD</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>BUP Fast HDD</FW_name>
+		<color>default</color>
+		<product_name>Fast HDD</product_name>
+		<label>Backup Plus Fast HDD</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Slim  BK</FW_name>
+		<color>cobrablack</color>
+		<product_name>Stratus Slim</product_name>
+		<label>Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Slim BK</FW_name>
+		<color>default</color>
+		<product_name>Stratus Slim</product_name>
+		<label>Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Slim  SL</FW_name>
+		<color>cobrasilver</color>
+		<product_name>Stratus Slim</product_name>
+		<label>Slim</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Slim Mac BK</FW_name>
+		<color>default</color>
+		<product_name>Stratus Slim Mac</product_name>
+		<label>Slim Mac</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Slim  Mac SL</FW_name>
+		<color>cobrasilver</color>
+		<product_name>Stratus Slim Mac</product_name>
+		<label>Slim Mac</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Slim Mac SL</FW_name>
+		<color>silver</color>
+		<product_name>Stratus Slim Mac</product_name>
+		<label>Slim Mac</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>yes</cloud>
+			<mobile>yes</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion+</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x2340</start>
+				<end>0x2342</end>
+			</range>
+		</pid>
+		<product_name>ExpansionPlus Portable</product_name>
+		<label>Expansion+</label>
+		<features>
+			<protect>yes</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion+</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x231C</start>
+				<end>0x231D</end>
+			</range>
+		</pid>
+		<product_name>NExpansionPlus Portable</product_name>
+		<label>Expansion+</label>
+		<features>
+			<protect>yes</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion+</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x2323</start>
+				<end>0x2323</end>
+			</range>
+		</pid>
+		<product_name>NExpansionPlus Portable</product_name>
+		<label>Expansion+</label>
+		<features>
+			<protect>yes</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion+ Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x3340</start>
+				<end>0x3342</end>
+			</range>
+		</pid>
+		<product_name>ExpansionPlus Desk</product_name>
+		<label>Expansion+ Desktop</label>
+		<features>
+			<protect>yes</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion+ Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x331B</start>
+				<end>0x331B</end>
+			</range>
+		</pid>
+		<product_name>NExpansionPlus Desk</product_name>
+		<label>Expansion+ Desktop</label>
+		<features>
+			<protect>yes</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion+ Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x3323</start>
+				<end>0x3323</end>
+			</range>
+		</pid>
+		<product_name>NExpansionPlus Desk</product_name>
+		<label>Expansion+ Desktop</label>
+		<features>
+			<protect>yes</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x2322</start>
+				<end>0x2322</end>
+			</range>
+		</pid>
+		<product_name>NExpansion Portable</product_name>
+		<label>Expansion</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x231A</start>
+				<end>0x231B</end>
+			</range>
+		</pid>
+		<product_name>NExpansion Portable</product_name>
+		<label>Expansion</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x2312</start>
+				<end>0x2319</end>
+			</range>
+		</pid>
+		<product_name>Falcon Expansion Portable</product_name>
+		<label>Expansion</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x2320</start>
+				<end>0x2321</end>
+			</range>
+		</pid>
+		<product_name>Falcon Expansion Portable</product_name>
+		<label>Expansion</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x2330</start>
+				<end>0x233F</end>
+			</range>
+		</pid>
+		<product_name>Falcon Expansion Portable</product_name>
+		<label>Expansion</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x3312</start>
+				<end>0x3312</end>
+			</range>
+		</pid>
+		<product_name>Falcon Expansion Desk</product_name>
+		<label>Expansion Desktop</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x331A</start>
+				<end>0x331A</end>
+			</range>
+		</pid>
+		<product_name>NExpansion Desk</product_name>
+		<label>Expansion Desktop</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x3320</start>
+				<end>0x3321</end>
+			</range>
+		</pid>
+		<product_name>Falcon Expansion Desk</product_name>
+		<label>Expansion Desktop</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x3322</start>
+				<end>0x3322</end>
+			</range>
+		</pid>
+		<product_name>NExpansion Desk</product_name>
+		<label>Expansion Desktop</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x3330</start>
+				<end>0x333F</end>
+			</range>
+		</pid>
+		<product_name>Raptor Expansion Desk</product_name>
+		<label>Expansion Desktop</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Portable</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x9009</start>
+				<end>0x9009</end>
+			</range>
+		</pid>
+		<product_name>Dell Portable</product_name>
+		<label>Dell Portable</label>
+		<features>
+			<protect>yes</protect>
+			<social>yes</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+		<manufacturer>Dell</manufacturer>
+	</device>
+	<device>
+		<FW_name>Portable</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x2300</start>
+				<end>0x2330</end>
+			</range>
+		</pid>
+		<product_name>Raptor Expansion Portable</product_name>
+		<label>Expansion</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x2300</start>
+				<end>0x2310</end>
+			</range>
+		</pid>
+		<product_name>Raptor Expansion Portable</product_name>
+		<label>Expansion</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Expansion Desk</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0x3300</start>
+				<end>0x3310</end>
+			</range>
+		</pid>
+		<product_name>Raptor Expansion Desk</product_name>
+		<label>Expansion Desktop</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlex Slim</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Slim</product_name>
+		<label>GoFlex Slim</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlex Slim Mac</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Slim Mac</product_name>
+		<label>GoFlex Slim</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlexSatellite</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Satellite</product_name>
+		<label>Satellite</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Wireless</FW_name>
+		<color>default</color>
+		<pid>
+			<range>
+				<start>0xA315</start>
+				<end>0xA315</end>
+			</range>
+		</pid>
+		<product_name>Wireless Mobile Storage</product_name>
+		<label>Wireless Mobile Storage</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Wireless</FW_name>
+		<color>default</color>
+		<product_name>Wireless</product_name>
+		<label>Wireless</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Wireless Plus</FW_name>
+		<color>default</color>
+		<product_name>Wireless</product_name>
+		<label>Wireless Plus</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlex Pro Mac</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Pro Mac</product_name>
+		<label>GoFlex Pro</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlex Pro</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Pro</product_name>
+		<label>GoFlex Pro</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>FA GoFlex Pro</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Pro</product_name>
+		<label>GoFlex Pro</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlex Turbo</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Turbo</product_name>
+		<label>GoFlex Turbo</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlex Mac</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Mac</product_name>
+		<label>GoFlex</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>FreeAgent GoFlex</FW_name>
+		<color>default</color>
+		<product_name>GoFlex</product_name>
+		<label>GoFlex</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlex Desk Mac</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Desk Mac</product_name>
+		<label>GoFlex Desk</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>FA GoFlex Desk</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Desk V1</product_name>
+		<label>GoFlex Desk</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>GoFlex Desk</FW_name>
+		<color>default</color>
+		<product_name>GoFlex Desk V2</product_name>
+		<label>GoFlex Desk</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+	<device>
+		<FW_name>Others</FW_name>
+		<color>default</color>
+		<product_name>Others</product_name>
+		<label>Drive</label>
+		<features>
+			<protect>no</protect>
+			<social>no</social>
+			<cloud>no</cloud>
+			<mobile>no</mobile>
+			<sync>no</sync>
+		</features>
+	</device>
+</devices>

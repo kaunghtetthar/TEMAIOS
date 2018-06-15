@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<productInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <product>Stratus BackupPlus Desk</product>
+  <links>
+    <link>
+      <label>产品信息</label>
+      <comments>
+        <comment>数据表和规格</comment>
+        <comment>审阅和文章</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/external-hard-drives/desktop-hard-drives/backup-plus-desk-v1/</url>
+      <tooltip>在浏览器中打开产品信息网站。</tooltip>
+    </link>
+    <link>
+      <label>支持信息</label>
+      <comments>
+        <comment>故障排除和下载</comment>
+        <comment>操作方法与常见问题</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/support/external-hard-drives/desktop-hard-drives/backup-plus-desk-v1/</url>
+      <tooltip>在浏览器中打开产品支持网站。</tooltip>
+    </link>
+  </links>
+</productInfo>

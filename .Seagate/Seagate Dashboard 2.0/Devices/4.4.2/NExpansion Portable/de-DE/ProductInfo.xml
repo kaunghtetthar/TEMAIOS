@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<productInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <product>Expansion Portable</product>
+  <links>
+    <link>
+      <label>Produktinformationen</label>
+      <comments>
+        <comment>Datenblätter und Spezifikationen</comment>
+        <comment>Produkttests und Artikel</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/products/laptop-mobile-storage/laptop-external-drives/expansion-portable-drive/</url>
+      <tooltip>Öffnet eine Seite mit Produktinformationen im Browser.</tooltip>
+    </link>
+    <link>
+      <label>Support-Informationen</label>
+      <comments>
+        <comment>Fehlerbehebung und Downloads</comment>
+        <comment>Anleitungen und häufig gestellte Fragen</comment>
+      </comments>
+      <img>internetIcon.png</img>
+      <url>http://www.seagate.com/support/laptop-mobile-storage/laptop-external-drives/expansion-portable-drive/</url>
+      <tooltip>Öffnet eine Seite mit Support-Informationen im Browser.</tooltip>
+    </link>
+    <link>
+      <label>Benutzerhandbuch</label>
+      <img>pdfFile.png</img>
+      <url>GoFlex Satellite User Guide_German.pdf</url>
+      <tooltip>Öffnet das Benutzerhandbuch für das Produkt</tooltip>
+    </link>
+  </links>
+</productInfo>

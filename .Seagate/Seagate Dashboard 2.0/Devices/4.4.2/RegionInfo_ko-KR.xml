@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>Seagate Dashboard 지원을 위한 지역 선택</label>
+  <menu>
+    <option>
+      <label>전화를 걸기 전에 Seagate 고객 지원 센터를 방문해 주시기 바랍니다.</label>
+      <support>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+      </support>
+      <phones>
+        <label></label>
+      </phones>
+      <languages>
+      </languages>
+      <hours>
+        <label></label>
+      </hours>
+    </option>
+    <option>
+      <label>미국, 캐나다, 라틴 아메리카, 멕시코</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.SEAGATE</label>
+        <label>1.800.732.4283</label>
+        <label>1.405.324.4700</label>
+      </phones>
+      <languages>영어, 프랑스어, 포르투갈어, 스페인어</languages>
+      <hours>
+        <label>오전 8시 - 오전 6시 중부 표준시</label>
+        <label>월요일 - 금요일</label>
+      </hours>
+    </option>
+    <option>
+      <label>브라질</label>
+      <support>
+        <link>
+		  <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.891.5814</label>
+      </phones>
+      <languages>영어, 프랑스어, 포르투갈어, 스페인어</languages>
+      <hours>
+        <label>오전 9시 - 오전 6시</label>
+        <label>월요일 - 금요일</label>
+      </hours>
+    </option>
+    <option>
+      <label>벨기에, 덴마크, 프랑스, 독일, 아일랜드, 이탈리아, 네덜란드, 노르웨이, 폴란드, 스페인, 스웨덴, 스위스, 영국</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>00.800.4732.4283</label>
+      </phones>
+      <languages>영어, 프랑스어, 독일어, 스페인어</languages>
+      <hours>
+        <label>오전 8시 - 오전 5시 중앙유럽 표준시</label>
+        <label>월요일 - 금요일</label>
+      </hours>
+    </option>
+    <option>
+      <label>유럽, 중동, 아프리카</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.405.324.4714</label>
+      </phones>
+      <languages>영어, 프랑스어, 독일어, 스페인어</languages>
+      <hours>
+        <label>오전 8시 - 오전 5시 중앙유럽 표준시</label>
+        <label>월요일 - 금요일</label>
+      </hours>
+    </option>
+    <option>
+      <label>오스트레일리아</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14.7201</label>
+      </phones>
+      <languages>영어</languages>
+      <hours>
+        <label>오전 10시 - 오후 7시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>오스트레일리아 표준시(GMT +10)</label>
+      </hours>
+    </option>
+    <option>
+      <label>중국</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>4008 878790</label>
+      </phones>
+      <languages>영어, 표준 중국어, 광둥어</languages>
+      <hours>
+        <label>오전 8시 - 오전 5시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>중국 표준시(GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>홍콩</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.90.0474</label>
+      </phones>
+      <languages>영어, 표준 중국어, 광둥어</languages>
+      <hours>
+        <label>오전 8시 - 오전 5시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>홍콩 표준시(GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>인도</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>000.800.440.1392</label>
+      </phones>
+      <languages>영어</languages>
+      <hours>
+        <label>오전 5시 30분 - 오전 4시 30</label>
+        <label>월요일 - 금요일</label>
+        <label>인도 표준시(GMT +5.5)</label>
+      </hours>
+    </option>
+    <option>
+      <label>인도네시아</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.803.657.090</label>
+      </phones>
+      <languages>영어</languages>
+      <hours>
+        <label>오전 7시 - 오전 4시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>인도네시아 표준시(GMT+7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>일본</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0120.993280</label>
+      </phones>
+      <languages>일본어</languages>
+      <hours>
+        <label>오전 9시 - 오후 6시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>일본 표준시(GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>대한민국</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>007.98.441.2491</label>
+      </phones>
+      <languages>영어, 한국어</languages>
+      <hours>
+        <label>오전 9시 - 오후 6시</label>
+        <label>월요일 - 금요일</label>
+        <label>대한민국 표준시(GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>말레이시아</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.80.2335</label>
+      </phones>
+      <languages>영어, 표준 중국어, 광둥어</languages>
+      <hours>
+        <label>오전 8시 - 오전 5시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>말레이시아 표준시(GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>뉴질랜드</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.443988</label>
+      </phones>
+      <languages>영어</languages>
+      <hours>
+        <label>오후 1시 - 오후 10시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>뉴질랜드 표준시(GMT +12)</label>
+      </hours>
+    </option>
+    <option>
+      <label>필리핀</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14410356</label>
+      </phones>
+      <languages>영어</languages>
+      <hours>
+        <label>오전 8시 - 오전 5시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>필리핀 표준시(GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>싱가포르</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.110.1150</label>
+      </phones>
+      <languages>영어, 표준 중국어, 광둥어</languages>
+      <hours>
+        <label>오전 8시 - 오전 5시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>싱가포르 표준시(GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>타이완</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0800666910</label>
+        <label>0026564852612</label>
+      </phones>
+      <languages>영어, 표준 중국어, 광둥어</languages>
+      <hours>
+        <label>오전 8시 - 오전 5시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>타이완 표준시(GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>태국</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.800.11.0032165</label>
+      </phones>
+      <languages>영어</languages>
+      <hours>
+        <label>오전 7시 - 오전 4시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>태국 표준시(GMT +7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>베트남</label>
+      <support>
+        <link>
+          <label>이메일 사례 제출</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>액세스 코드:</label>
+        <label>   1-201-0288+</label>
+        <label>888-268-3308</label>
+      </phones>
+      <languages>영어</languages>
+      <hours>
+        <label>오전 7시 - 오전 4시 00분</label>
+        <label>월요일 - 금요일</label>
+        <label>베트남 표준시(GMT +7)</label>
+      </hours>
+    </option>
+  </menu>
+</regionInfo>

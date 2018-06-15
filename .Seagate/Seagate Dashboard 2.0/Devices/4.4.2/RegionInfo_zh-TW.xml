@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>選取 Seagate Dashboard 的地區支援 </label>
+  <menu>
+    <option>
+      <label>請在致電前造訪 Seagate 客戶支援網站。</label>
+      <support>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+      </support>
+      <phones>
+        <label></label>
+      </phones>
+      <languages>
+      </languages>
+      <hours>
+        <label></label>
+      </hours>
+    </option>
+    <option>
+      <label>美國、加拿大、拉丁美洲、墨西哥</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.SEAGATE</label>
+        <label>1.800.732.4283</label>
+        <label>1.405.324.4700</label>
+      </phones>
+      <languages>英語、法語、葡萄牙語和西班牙語</languages>
+      <hours>
+        <label>上午 8:00 - 下午 6:00（美國中部時間）</label>
+        <label>星期一 - 星期五</label>
+      </hours>
+    </option>
+    <option>
+      <label>巴西</label>
+      <support>
+        <link>
+		  <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.891.5814</label>
+      </phones>
+      <languages>英語、法語、葡萄牙語和西班牙語</languages>
+      <hours>
+        <label>上午 9:00 - 下午 6:00</label>
+        <label>星期一 - 星期五</label>
+      </hours>
+    </option>
+    <option>
+      <label>比利時、丹麥、法國、德國、愛爾蘭、義大利、荷蘭、挪威、波蘭、西班牙、瑞典、瑞士、英國</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>00.800.4732.4283</label>
+      </phones>
+      <languages>英語、法語、德語、西班牙語</languages>
+      <hours>
+        <label>上午 8:00 - 上午 5:00（歐洲中部時間）</label>
+        <label>星期一 - 星期五</label>
+      </hours>
+    </option>
+    <option>
+      <label>歐洲、中東、非洲</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.405.324.4714</label>
+      </phones>
+      <languages>英語、法語、德語、西班牙語</languages>
+      <hours>
+        <label>上午 8:00 - 上午 5:00（歐洲中部時間）</label>
+        <label>星期一 - 星期五</label>
+      </hours>
+    </option>
+    <option>
+      <label>澳大利亞</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14.7201</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>上午 10:00 - 下午 7:00</label>
+        <label>星期一 - 星期五</label>
+        <label>澳大利亞標準時間 (GMT +10)</label>
+      </hours>
+    </option>
+    <option>
+      <label>中國</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>4008 878790</label>
+      </phones>
+      <languages>英語、國語、粵語</languages>
+      <hours>
+        <label>上午 08:00 - 上午 5:00</label>
+        <label>星期一 - 星期五</label>
+        <label>中國標準時間 (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>中國香港</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.90.0474</label>
+      </phones>
+      <languages>英語、國語、粵語</languages>
+      <hours>
+        <label>上午 8:00 - 上午 5:00</label>
+        <label>星期一 - 星期五</label>
+        <label>香港標準時間 (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>印度</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>000.800.440.1392</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>上午 5:30 - 上午 4:30</label>
+        <label>星期一 - 星期五</label>
+        <label>印度標準時間 (GMT +5.5)</label>
+      </hours>
+    </option>
+    <option>
+      <label>印度尼西亞</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.803.657.090</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>上午 7:00 - 上午 4:00</label>
+        <label>星期一 - 星期五</label>
+        <label>印度尼西亞標準時間 (GMT+7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>日本</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0120.993280</label>
+      </phones>
+      <languages>日語</languages>
+      <hours>
+        <label>上午 9:00 - 下午 6:00</label>
+        <label>星期一 - 星期五</label>
+        <label>日本標準時間 (GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>韓國</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>007.98.441.2491</label>
+      </phones>
+      <languages>英語、韓語</languages>
+      <hours>
+        <label>上午 9:00 - 下午 6:00</label>
+        <label>星期一 - 星期五</label>
+        <label>韓國標準時間 (GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>馬來西亞</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.80.2335</label>
+      </phones>
+      <languages>英語、國語、粵語</languages>
+      <hours>
+        <label>上午 8:00 - 上午 5:00</label>
+        <label>星期一 - 星期五</label>
+        <label>馬來西亞標準時間 (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>紐西蘭</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0.800.443988</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>下午 1:00 - 下午 10:00</label>
+        <label>星期一 - 星期五</label>
+        <label>紐西蘭標準時間 (GMT +12)</label>
+      </hours>
+    </option>
+    <option>
+      <label>菲律賓</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.14410356</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>上午 8:00 - 上午 5:00</label>
+        <label>星期一 - 星期五</label>
+        <label>菲律賓標準時間 (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>新加坡</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800.110.1150</label>
+      </phones>
+      <languages>英語、國語、粵語</languages>
+      <hours>
+        <label>上午 8:00 - 上午 5:00</label>
+        <label>星期一 - 星期五</label>
+        <label>新加坡標準時間 (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>台灣</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0800666910</label>
+        <label>0026564852612</label>
+      </phones>
+      <languages>英語、國語、粵語</languages>
+      <hours>
+        <label>上午 8:00 - 上午 5:00</label>
+        <label>星期一 - 星期五</label>
+        <label>台灣標準時間 (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>泰國</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001.800.11.0032165</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>上午 7:00 - 上午 4:00</label>
+        <label>星期一 - 星期五</label>
+        <label>泰國標準時間 (GMT +7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>越南</label>
+      <support>
+        <link>
+          <label>提交電子郵件案例</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>存取代碼:</label>
+        <label>   1-201-0288+</label>
+        <label>888-268-3308</label>
+      </phones>
+      <languages>英語</languages>
+      <hours>
+        <label>上午 7:00 - 上午 4:00</label>
+        <label>星期一 - 星期五</label>
+        <label>越南標準時間 (GMT +7)</label>
+      </hours>
+    </option>
+  </menu>
+</regionInfo>

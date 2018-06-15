@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>Wählen Sie den Support für Seagate Dashboard für Ihre Region</label>
+  <menu>
+    <option>
+      <label>Besuchen Sie die Seagate-Kundensupportseite, bevor Sie anrufen.</label>
+      <support>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+        <link>
+          <label></label>
+          <url></url>
+        </link>
+      </support>
+      <phones>
+        <label></label>
+      </phones>
+      <languages>
+      </languages>
+      <hours>
+        <label></label>
+      </hours>
+    </option>
+    <option>
+      <label>USA, Kanada, Lateinamerika, Mexiko</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.SEAGATE</label>
+        <label>1.800.732.4283</label>
+        <label>1.405.324.4700</label>
+      </phones>
+      <languages>Englisch, Französisch, Portugiesisch und Spanisch</languages>
+      <hours>
+        <label>8.00 bis 18.00 Uhr CT</label>
+        <label>Montag bis Freitag</label>
+      </hours>
+    </option>
+    <option>
+      <label>Brasilien</label>
+      <support>
+        <link>
+		  <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0-800-891-5814</label>
+      </phones>
+      <languages>Englisch, Französisch, Portugiesisch und Spanisch</languages>
+      <hours>
+        <label>9.00 bis 18.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+      </hours>
+    </option>
+    <option>
+      <label>Belgien, Dänemark, Deutschland, Frankreich, Großbritannien, Irland, Italien, Niederlande, Norwegen, Polen, Schweden, Schweiz, Spanien</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>00-800-4732-4283</label>
+      </phones>
+      <languages>Deutsch, Französisch, Englisch, Spanisch</languages>
+      <hours>
+        <label>8.00 bis 17.00 Uhr MEZ</label>
+        <label>Montag bis Freitag</label>
+      </hours>
+    </option>
+    <option>
+      <label>Europa, Naher Osten, Afrika</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1-405-324-4714</label>
+      </phones>
+      <languages>Deutsch, Französisch, Englisch, Spanisch</languages>
+      <hours>
+        <label>8.00 bis 17.00 Uhr MEZ</label>
+        <label>Montag bis Freitag</label>
+      </hours>
+    </option>
+    <option>
+      <label>Südafrika</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1.800.00.0771</label>
+      </phones>
+      <languages>English, Französisch, Deutsch, Spanisch</languages>
+      <hours>
+        <label>8:00 - 17:00 Uhr CET</label>
+        <label>Montag bis Freitag</label>
+      </hours>
+    </option>
+    <option>
+      <label>Australien</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1-800-14-7201</label>
+      </phones>
+      <languages>Englisch</languages>
+      <hours>
+        <label>10.00 bis 19.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Australia Standard Time (GMT +10)</label>
+      </hours>
+    </option>
+    <option>
+      <label>China</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>4008 878790</label>
+      </phones>
+      <languages>Englisch, Mandarin, Kantonesisch</languages>
+      <hours>
+        <label>8.00 bis 17.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>China Standard Time (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Hongkong</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800-90-0474</label>
+      </phones>
+      <languages>Englisch, Mandarin, Kantonesisch</languages>
+      <hours>
+        <label>8.00 bis 17.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Hong Kong Standard Time (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Indien</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>000-800-440-1392</label>
+      </phones>
+      <languages>Englisch</languages>
+      <hours>
+        <label>5.30 bis 16.30 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>India Standard Time (GMT +5,5)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Indonesien</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>000.800.440.1392</label>
+      </phones>
+      <languages>Englisch</languages>
+      <hours>
+        <label>7.00 bis 16.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Indonesia Standard Time (GMT +7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Japan</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0120.993280</label>
+      </phones>
+      <languages>Japanisch</languages>
+      <hours>
+        <label>9.00 bis 18.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Japan Standard Time (GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Südkorea</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>007-98-441-2491</label>
+      </phones>
+      <languages>Englisch, Koreanisch</languages>
+      <hours>
+        <label>9.00 bis 18.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>South Korea Standard Time (GMT +9)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Malaysia</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1-800-80-2335</label>
+      </phones>
+      <languages>Englisch, Mandarin, Kantonesisch</languages>
+      <hours>
+        <label>8.00 bis 17.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Malaysia Standard Time (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Neuseeland</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0-800-443988</label>
+      </phones>
+      <languages>Englisch</languages>
+      <hours>
+        <label>13.00 bis 22.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>New Zealand Standard Time (GMT +12)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Philippinen</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>1-800-14410356</label>
+      </phones>
+      <languages>Englisch</languages>
+      <hours>
+        <label>8.00 bis 17.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Philippine Standard Time (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Singapur</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>800-110-1150</label>
+      </phones>
+      <languages>Englisch, Mandarin, Kantonesisch</languages>
+      <hours>
+        <label>8.00 bis 17.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Singapore Standard Time (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Taiwan</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>0800666910</label>
+        <label>0026564852612</label>
+      </phones>
+      <languages>Englisch, Mandarin, Kantonesisch</languages>
+      <hours>
+        <label>8.00 bis 17.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Taiwan Standard Time (GMT +8)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Thailand</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>001-800-11-0032165</label>
+      </phones>
+      <languages>Englisch</languages>
+      <hours>
+        <label>7.00 bis 16.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Thailand Standard Time (GMT +7)</label>
+      </hours>
+    </option>
+    <option>
+      <label>Vietnam</label>
+      <support>
+        <link>
+          <label>E-Mail-Fall einsenden</label>
+          <url>http://support2.seagate.com</url>
+        </link>
+      </support>
+      <phones>
+        <label>Zugangscode:</label>
+        <label>   1-201-0288+</label>
+        <label>888-268-3308</label>
+      </phones>
+      <languages>Englisch</languages>
+      <hours>
+        <label>7.00 bis 16.00 Uhr</label>
+        <label>Montag bis Freitag</label>
+        <label>Vietnam Standard Time (GMT +7)</label>
+      </hours>
+    </option>
+  </menu>
+</regionInfo>

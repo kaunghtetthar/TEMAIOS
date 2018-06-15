@@ -1,0 +1,1 @@
+﻿Mejoras de rendimiento y correcciones de errores.
