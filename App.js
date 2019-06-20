@@ -5,7 +5,6 @@ import Tab from './src/components/Tab';
 import {Spinner, Header} from './src/components/common';
 import API from './src/components/API';
 import {Router, Scene, Route, TabBar, Schema, Actions} from 'react-native-router-flux';
-import Authentication from './src/components/Authentication';
 import HomePage from './src/components/HomePage';
 import AlbumList from './src/components/AlbumList';
 import Vlist from './src/components/Vlist';
@@ -70,12 +69,6 @@ export default class App extends React.Component {
             return (
                 <Router>
                     <Scene key="root"  panHandlers={null} >
-                        <Scene
-                            component={Authentication} hideNavBar={true}
-                             key='Authentication'
-                            title='Authentication'
-
-                        />
                             <Scene
                                 component={HomePage}
                                 key='HomePage'
