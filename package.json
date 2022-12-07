@@ -10,7 +10,7 @@
     "axios": "^0.17.1",
     "expo": "^25.0.0",
     "react": "16.2.0",
-    "react-native": "0.53.0",
+    "react-native": "0.70.6",
     "react-native-create-bridge": "^2.0.1",
     "react-native-image-pan-zoom": "^2.0.17",
     "react-native-loader": "^1.2.1",
